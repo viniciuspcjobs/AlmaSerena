@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/background_body.png);
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainLogin{
+    border: 3px solid rgb(180, 178, 178);
+    background-color: #F0F7F4;
+    width: 430px;
+    max-width: 430px;
+    height: 700px;
+    max-height: 700px;
+    border-radius: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.voltar{
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,121,107,0.16);
+    transition: background 0.18s, transform 0.12s;
+}
+
+.voltar:hover{
+    background-color: #004d40;
+}

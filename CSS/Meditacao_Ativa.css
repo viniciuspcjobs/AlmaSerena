@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    background-image: url(../img/background_body.png);
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    border: 3px solid rgb(180, 178, 178);
+    background-color: #F0F7F4;
+    width: 430px;
+    max-width: 430px;
+    height: 700px;
+    max-height: 700px;
+    border-radius: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+}
+  
+h1 {
+    font-size: 1.8rem;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+  
+p {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+  
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.option {
+    background-color: #e0f2f1;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
+}
+  
+.option h2 {
+    font-size: 1.2rem;
+    color: #004d40;
+    margin-bottom: 5px;
+}
+  
+.option p {
+    font-size: 0.9rem;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+button:hover {
+    background-color: #004d40;
+}
+
+.voltar_icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -180px;
+    cursor: pointer;
+}
+
+.voltar_icon:hover{
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+.feedback{
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: none;
+    color: #00796b;
+    margin-top: 40px;
+    font-size: 22px;
+}
+.feedback:hover{
+    font-size:23px ;
+}

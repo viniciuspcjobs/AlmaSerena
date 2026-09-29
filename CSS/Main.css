@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    background-image: url(../img/background_body.png);
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    border: 3px solid rgb(180, 178, 178);
+    background-color: #F0F7F4;
+    width: 430px;
+    max-width: 430px;
+    height: 700px;
+    max-height: 700px;
+    border-radius: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 62px;
+    margin-top: -160px;
+    color: #00796b;
+}
+
+.saudacao{
+    font-size: 20px;
+    margin-top: -10px;
+    color: #2B5C5E;
+}
+
+.texto_sobre_o_app{
+    color: rgb(58, 57, 57);
+    font-size: 15px;
+    max-width: 350px;
+}
+
+.botao_comecar{
+    background-color: #00796b;
+    border-radius: 20px;
+    color: white;
+    width: 240px;
+    height: 60px;
+    position: absolute;
+    top: 550px;
+    font-size: 16px;
+    cursor: pointer;
+}
+a{
+    margin-right: 240px;
+}
+
+.botao_comecar:hover{
+    background-color: #004d40;
+}
+
+.img_meditando{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    top: 450px;
+}
+
+.img_meditando .img_1{
+    position: relative;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.img_sair{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    margin-left: 250px;
+}
+.img_config{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.config_div{
+    width: 250px;
+    height: 350px;
+    background-color: #97b1ae;
+    border: 2px solid #004d40;
+    position: absolute;
+    top: 100px;
+    margin-left: -120px;
+    display: none;
+    border-radius: 10px;
+    z-index: 999;
+    align-items: center;
+    text-align: center;
+}
+
+.config_div a{
+    margin: auto;
+    margin-top: 90px;
+}
+
+.config .config_div a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.config .config_div a:hover{
+    color: #004d40;
+    border-bottom: 1px solid #004d40;
+}

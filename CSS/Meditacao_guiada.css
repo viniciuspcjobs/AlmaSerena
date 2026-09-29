@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    background-image: url(../img/background_body.png);
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    border: 3px solid rgb(180, 178, 178);
+    background-color: #F0F7F4;
+    width: 430px;
+    max-width: 430px;
+    height: 700px;
+    max-height: 700px;
+    border-radius: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #2e6f6e;
+    margin-top: 100px;
+}
+
+/* ...existing code... */
+.play-btn {
+    background-color: #2e6f6e;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 18px;
+    box-shadow: 0 2px 8px rgba(46, 111, 110, 0.15);
+    transition: background 0.2s;
+}
+.play-btn:hover {
+    background-color: #18403f;
+}
+    
+.player {
+    margin: 20px 0;
+}
+
+/* Alinhar o voltar_icon à esquerda como nas outras telas */
+.header-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+.voltar_icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 51px;
+    margin-left: -180px;
+    cursor: pointer;
+}
+
+.voltar_icon:hover{
+    transform: scale(1.2);
+}
+
+/* Carrossel de passos estilizado */
+.steps-carousel {
+    margin: 0 auto 30px auto;
+    width: 90%;
+    max-width: 350px;
+    background: #eaf6f3;
+    border-radius: 30px;
+    box-shadow: 0 4px 16px rgba(46, 111, 110, 0.4);
+    padding: 18px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.steps-carousel h2 {
+    color: #2e6f6e;
+    margin-bottom: 10px;
+}
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 10px;
+}
+.carousel-btn {
+    background: #2e6f6e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.carousel-btn:disabled {
+    background: #b2d6d5;
+    cursor: not-allowed;
+}
+#carousel-indicator {
+    font-size: 18px;
+    color: #2e6f6e;
+    font-weight: bold;
+}
+#carousel-list {
+    list-style: decimal inside;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+#carousel-list li {
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: #18403f;
+}
+
+.player {
+    margin-top: auto;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

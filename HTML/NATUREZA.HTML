@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/NATUREZA.CSS">
+        <script src="../js/NATUREZA.js" defer></script>
+        <title>Sons da Natureza</title>
+    </head>
+    <body>
+    <div class="main">
+        <!-- Botão de voltar -->
+        <a href="Meditacao_Ativa.html"><img class="voltar_icon" src="../img/voltar_icon.png"></a>
+    <br>
+    <br>
+        <h1>Sons da Natureza</h1>
+        <!-- CARROSSEL -->
+        <div class="carousel">
+            <h2 id="title">Chuva</h2>
+            <audio id="audioPlayer" controls>
+                <source src="../audio/chuva.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+
+            <div class="controls">
+                <button onclick="prev()">⟨ Anterior</button>
+                <button onclick="next()">Próximo ⟩</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

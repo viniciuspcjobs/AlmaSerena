@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    background-image: url(../img/background_body.png);
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    border: 3px solid rgb(180, 178, 178);
+    background-color: #F0F7F4;
+    width: 430px;
+    max-width: 430px;
+    height: 700px;
+    max-height: 700px;
+    border-radius: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: #00796b;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 40px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color:#97c7c1;;
+    background-image: url(../img/boneca_respirando.png);
+    background-position: center;
+    background-size: cover;
+    animation: breatheAnimation 12s infinite;
+}
+@keyframes breatheAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+}
+
+.botao_retornar{
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    font-size: 22px;
+    margin-top: 70px;   
+    cursor: pointer;
+}
+
+#instrucao{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.botao_retornar:hover{
+    background-color: #004d40;
+}
+
+.dica{
+    color: rgb(58, 57, 57);
+    font-size: 14px;
+}

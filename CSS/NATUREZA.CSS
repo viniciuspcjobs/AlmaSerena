@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    background-image: url(../img/background_body.png);
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    border: 3px solid rgb(180, 178, 178);
+    background-color: #F0F7F4;
+    width: 430px;
+    max-width: 430px;
+    height: 700px;
+    max-height: 700px;
+    border-radius: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carousel {
+    max-width: 800px;
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    color: #00796b;
+}
+h1{
+    margin-top: 100px;
+}
+
+audio {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: #007BFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
+
+.voltar_icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 51px;
+    margin-left: -180px;
+    cursor: pointer;
+}
+
+.voltar_icon:hover{
+    transform: scale(1.2);
+}

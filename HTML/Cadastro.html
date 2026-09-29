@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Login.css"> <!-- Usando o mesmo css do login, afinal a tela é igual -->
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+<div class="mainLogin">
+
+    <div class="LogoLogin"></div>
+
+    <form class="formLogin" id="registerForm">
+        <h1>CADASTRO</h1>
+        <br>
+
+        <input type="text" id="email" placeholder="Email" required>
+        <br>
+        <input type="password" id="password" placeholder="Senha" required>
+        <br>
+        <input type="password" id="confirmPassword" placeholder="Confirmar Senha" required>
+        <br>
+
+        <button type="button" id="btn-primary">Cadastrar</button>
+
+        <p style="margin-top: 10px;">
+            Já tem conta?
+            <a href="Login.html">Entrar</a>
+        </p>
+    </form>
+
+</div>
+
+<!-- Firebase -->
+<script type="module" src="../JS/firebase.js" defer></script>
+
+<!-- Script de cadastro -->
+<script type="module" src="../JS/Cadastro.js" defer></script>
+
+</body>
+</html>

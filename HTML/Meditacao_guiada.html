@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditação Guiada</title>
+    <link rel="stylesheet" href="../CSS/Meditacao_guiada.css">
+    <script src="../js/Meditacao_guiada.js" defer></script>
+</head>
+<body>
+    <div class="main">
+
+        <!-- Botão de voltar -->
+        <a href="Meditacao_Ativa.html">
+            <img class="voltar_icon" src="../img/voltar_icon.png" alt="Voltar">
+        </a>
+
+        <h1>Meditação Guiada</h1>
+
+        <!-- Texto introdutório -->
+        <p class="intro">Relaxe, feche os olhos e siga as instruções abaixo.</p>
+        <!-- Carrossel de passos -->
+        <div class="steps-carousel">
+            <h2>Passos da Meditação</h2>
+            <div class="carousel-controls">
+                <button id="prevStep" class="carousel-btn">⟨</button>
+                <span id="carousel-indicator">1/7</span>
+                <button id="nextStep" class="carousel-btn">⟩</button>
+            </div>
+            <ol id="carousel-list">
+                <!-- Passos foram inseridos via JS -->
+            </ol>
+        </div>
+
+        <!-- Áudio guiado -->
+        <div class="player">
+            <audio id="audioMeditacao">
+                <source src="../audio/lofi.mp3" type="audio/mpeg">
+            </audio>
+            <button id="playMeditacao" class="play-btn">Começar</button>
+        </div>
+    </div>
+</body>
+</html>
