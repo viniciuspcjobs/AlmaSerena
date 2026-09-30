@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/Login.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+
+    <div class="mainLogin">
+
+        <div class="LogoLogin"></div>
+
+        <form class="formLogin" id="loginForm">
+            <h1>LOGIN</h1>
+            <br>
+            <input type="text" id="Email" placeholder="Email" required>
+            <br>
+            <input type="password" id="Password" placeholder="Password" required>
+            <br>
+            <button type="button" id="btn-primary">Entrar</button>
+        </form>
+
+        <p class="p1">
+            Não tem conta?
+            <a href="Cadastro.html">Criar Conta</a>
+        </p>
+            
+    </div>
+
+    <!-- Firebase config -->
+    <script type="module" src="../JS/firebase.js" defer></script>
+
+    <!-- Script de login -->
+    <script type="module" src="../JS/Login.js" defer></script>
+
+
+
+    </body>
+</html>
