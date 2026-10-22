@@ -99,5 +99,5 @@ window.addEventListener("beforeunload", salvarMinutosLocal);
 document.getElementById("logoutBtn")?.addEventListener("click", async () => {
     salvarMinutosLocal(); // garante salvar pendentes no logout
     await signOut(auth);
-    window.location.href = "Login.html";
+    window.location.href = "index.html";
 });
