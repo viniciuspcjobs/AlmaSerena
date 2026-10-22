@@ -49,7 +49,7 @@ function salvarMinutosLocal() {
  *****************************************/
 onAuthStateChanged(auth, async (user) => {
     if (!user) {
-        window.location.href = "Login.html";
+        window.location.href = "index.html";
         return;
     }
 
