@@ -49,7 +49,7 @@ function salvarMinutosLocal() {
  *****************************************/
 onAuthStateChanged(auth, async (user) => {
     if (!user) {
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
         return;
     }
 
@@ -99,5 +99,5 @@ window.addEventListener("beforeunload", salvarMinutosLocal);
 document.getElementById("logoutBtn")?.addEventListener("click", async () => {
     salvarMinutosLocal(); // garante salvar pendentes no logout
     await signOut(auth);
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 });
