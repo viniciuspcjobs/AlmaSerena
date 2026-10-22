@@ -14,7 +14,7 @@ document.querySelector("#btn-primary").addEventListener("click", () => {
     createUserWithEmailAndPassword(auth, email, password)
         .then(() => {
             alert("Cadastro realizado com sucesso!");
-            window.location.href = "Login.html";
+            window.location.href = "../index.html";
         })
         .catch(error => {
             alert("Erro: " + error.message);
