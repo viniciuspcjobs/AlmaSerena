@@ -21,7 +21,7 @@ const auth = getAuth(app);
 // Carrega estatísticas sempre que o usuário estiver autenticado
 onAuthStateChanged(auth, async (user) => {
     if (!user) {
-        window.location.href = "Login.html";
+        window.location.href = "../index.html";
         return;
     }
 
